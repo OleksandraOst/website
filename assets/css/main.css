@@ -2589,9 +2589,10 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1em;
-			top: -8.0em;
-			right: 5.0em;
+			margin: 0% 0% 5% 3%;
+			
+			top: 15%;
+			right: 0%;
 			width: 50%;
 		}
 
@@ -3242,7 +3243,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-image: url("/Users/ostapiko/Documents/photo.jpg");
+			/* background-image: url("/Users/ostapiko/Documents/photo.jpg"); */
 			height: 500px;
 			background-position: center;
 			background-repeat: no-repeat;
