@@ -3927,9 +3927,10 @@ input, select, textarea {
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 30vw;       /* relative to screen width */
+    max-width: 150px;  /* cap the size */
+    height: auto;      /* maintain aspect ratio */
     border-radius: 50%;
-    border: 3px solid #FFFFFF;
+    object-fit: cover;
+	border: 3px solid #FFFFFF;
 }
