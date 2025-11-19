@@ -3928,7 +3928,7 @@ input, select, textarea {
 
 .profile-pic {
     width: 30vw;       /* relative to screen width */
-    max-width: 150px;  /* cap the size */
+    max-width: 180px;  /* cap the size */
     height: auto;      /* maintain aspect ratio */
     border-radius: 50%;
     object-fit: cover;
