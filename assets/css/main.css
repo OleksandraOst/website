@@ -3919,3 +3919,17 @@ input, select, textarea {
 			}
 
 		}
+/* Sidebar profile picture */
+.profile-pic-container {
+    text-align: center;
+    margin-bottom: 2rem;
+	margin-top: -1.5rem; /* move upward — adjust value */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
