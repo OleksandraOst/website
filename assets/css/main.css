@@ -3934,3 +3934,16 @@ input, select, textarea {
     object-fit: cover;
 	border: 3px solid #FFFFFF;
 }
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  /* justify-content: center; */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
