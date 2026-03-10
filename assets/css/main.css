@@ -3947,3 +3947,18 @@ input, select, textarea {
     flex-direction: column;
   }
 }
+
+.button-container {
+  display: flex;             /* align items in a row by default */
+  flex-wrap: wrap;           /* allow wrapping on small screens */
+  gap: 1rem;                 /* space between buttons */
+  justify-content: left;   /* center buttons horizontally */
+}
+
+/* For mobile screens, stack buttons vertically */
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: stretch;    /* buttons take full width if desired */
+  }
+}
